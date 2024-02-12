@@ -1,0 +1,27 @@
+.ProjectPage h5{
+    font-size: 30px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+@media screen and (min-width: 890px) {
+    .ProjectPage{
+        margin: 0 2rem 0 6rem;
+    }
+
+    div .div{
+        width: 40rem;
+        
+    }
+}
+
+.li {
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 1rem 0;
+}
+
+.li:hover{
+    border-radius: 0 1rem;
+}

@@ -1,0 +1,130 @@
+
+/* li{
+    list-style: none;
+    margin: 0 5px;
+    color: #262626;
+    font-size: 20px;
+    line-height: 80px;
+    width: 210px;
+    height: 80px;
+    background-color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg); translate: (0, 0);
+    box-shadow: -20px 20px 10px #00000080;
+
+}
+
+.li{
+    color: #262626;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 80px;
+    padding-right: 14px;
+   
+    
+    
+    transform: rotate(-30deg) skew(25deg);
+    translate: (20px, -15px);
+    box-shadow: -50px 50px 50px #00000080;
+
+
+    
+
+}
+
+li{
+    width: 210px;
+    height: 80px;
+    background-color: #fff;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg); translate: (0, 0);
+    box-shadow: -20px 20px 10px #00000080;
+
+}
+
+li span{
+    color: #262626;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    letter-spacing: 4px;
+    transition: .5s;
+}
+
+li:before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    bottom: -10px;
+    left: -10px;
+    transform: rotate(0deg) skewx(-45deg);
+
+}
+
+li:after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    top: 10px;
+    left: -20px;
+    transform: rotate(0deg) skewY(-45deg);
+    
+}
+li:hover{
+    transform: rotate(-30deg) skew(25deg);
+    translate: (20px, -15px);
+    box-shadow: -50px 50px 50px #00000080;
+}
+
+li:hover .navbar,
+li:hover span{
+    color: #fff;
+
+}
+
+li:hover:nth-child(1) {
+    background: #3b5998;
+
+} */
+
+
+
+
+/* .close{
+    width: 2rem;
+    border: 1px solid white;
+}
+
+.navbar{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 1rem 0;
+}
+
+li:hover{
+    border-radius: 0 1rem;
+} */
+
+
+
+
+@keyframes button {
+    0%{opacity: 0; transform: translatex(200px) ;}
+    100%{transform: translatex(0px)}
+}
